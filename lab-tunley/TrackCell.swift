@@ -6,29 +6,35 @@
 //
 
 import UIKit
+import Nuke
 
-class TrackCell: UIViewController {
-    
-    
-    
-    
-    //rrmkmek
+class TrackCell: UITableViewCell {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    @IBOutlet var trackImageView: UIImageView!
+    @IBOutlet var trackNameLabel: UILabel!
+    
+    @IBOutlet var artistNameLabel: UILabel!
+    
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
 
-        // Do any additional setup after loading the view.
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+
+        // Configure the view for the selected state
     }
     
+    
+    func configure(with track: Track) {
+        trackNameLabel.text = track.trackName
+        artistNameLabel.text = track.artistName
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        // Load image async via Nuke library image loading helper method
+        Nuke.loadImage(with: track.artworkUrl100, into: trackImageView)
     }
-    */
+
 
 }

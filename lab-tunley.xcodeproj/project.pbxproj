@@ -16,7 +16,7 @@
 		CB7254F6293B224000F531FB /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7254F5293B224000F531FB /* Track.swift */; };
 		CB7254FF293B610C00F531FB /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = CB7254FE293B610C00F531FB /* Nuke */; };
 		CB8B1547293EFCA100397B69 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8B1546293EFCA100397B69 /* DetailViewController.swift */; };
-		FA13D4DA2AB508B100CC62C3 /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA13D4D92AB508B100CC62C3 /* TrackCell.swift */; };
+		FAE7802A2AB51DA900C83782 /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE780292AB51DA900C83782 /* TrackCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +30,7 @@
 		CB7254EC2939D37A00F531FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB7254F5293B224000F531FB /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 		CB8B1546293EFCA100397B69 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		FA13D4D92AB508B100CC62C3 /* TrackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
+		FAE780292AB51DA900C83782 /* TrackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 			children = (
 				CB7254F7293B224F00F531FB /* Models */,
 				CB7254E22939D37800F531FB /* TracksViewController.swift */,
-				FA13D4D92AB508B100CC62C3 /* TrackCell.swift */,
+				FAE780292AB51DA900C83782 /* TrackCell.swift */,
 				CB8B1546293EFCA100397B69 /* DetailViewController.swift */,
 				CB7254DE2939D37800F531FB /* AppDelegate.swift */,
 				CB7254E02939D37800F531FB /* SceneDelegate.swift */,
@@ -168,7 +168,7 @@
 				CB8B1547293EFCA100397B69 /* DetailViewController.swift in Sources */,
 				CB7254E12939D37800F531FB /* SceneDelegate.swift in Sources */,
 				CB7254F6293B224000F531FB /* Track.swift in Sources */,
-				FA13D4DA2AB508B100CC62C3 /* TrackCell.swift in Sources */,
+				FAE7802A2AB51DA900C83782 /* TrackCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
